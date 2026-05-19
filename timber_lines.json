@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Timber Log Production by Region (2000–2021)",
+    "subtitle": "Sabah, Sarawak and Peninsular Malaysia · hover on points for values",
+    "fontSize": 15, "subtitleFontSize": 12, "subtitleColor": "#5a5a54",
+    "anchor": "start", "font": "DM Sans", "subtitleFont": "DM Sans", "fontWeight": "bold", "offset": 12
+  },
+  "width": "container",
+  "height": 340,
+  "data": { "url": "data/timber_products.csv", "format": { "type": "csv", "parse": { "production": "number", "date": "date" } } },
+  "transform": [
+    { "filter": "datum.product == 'logs' && datum.state != 'Malaysia'" },
+    {
+      "calculate": "datum.state == 'Sabah' || datum.state == 'Sarawak' ? datum.state : 'Peninsular'",
+      "as": "region"
+    },
+    { "aggregate": [{ "op": "sum", "field": "production", "as": "log_production" }], "groupby": ["date", "region"] }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "line", "strokeWidth": 2.5, "interpolate": "monotone" },
+      "encoding": {
+        "x": {
+          "field": "date", "type": "temporal",
+          "axis": { "title": null, "format": "%Y", "labelFont": "DM Sans", "labelFontSize": 11, "grid": false, "tickCount": 10 }
+        },
+        "y": {
+          "field": "log_production", "type": "quantitative",
+          "axis": { "title": "Log Production (m³)", "titleFont": "DM Sans", "labelFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 12, "grid": true, "gridColor": "#f0ede8", "format": ".2s" }
+        },
+        "color": {
+          "field": "region", "type": "nominal",
+          "scale": { "domain": ["Sabah","Sarawak","Peninsular"], "range": ["#2d6a4f","#d4850a","#577590"] },
+          "legend": { "title": "Region", "titleFont": "DM Sans", "labelFont": "DM Sans", "titleFontSize": 12, "labelFontSize": 11, "orient": "top-right" }
+        }
+      }
+    },
+    {
+      "mark": { "type": "point", "filled": true, "size": 50, "opacity": 0.8 },
+      "encoding": {
+        "x": { "field": "date",           "type": "temporal" },
+        "y": { "field": "log_production", "type": "quantitative" },
+        "color": {
+          "field": "region", "type": "nominal",
+          "scale": { "domain": ["Sabah","Sarawak","Peninsular"], "range": ["#2d6a4f","#d4850a","#577590"] }
+        },
+        "tooltip": [
+          { "field": "date",           "title": "Year",               "type": "temporal",     "format": "%Y" },
+          { "field": "region",         "title": "Region",             "type": "nominal" },
+          { "field": "log_production", "title": "Production (m³)",    "type": "quantitative",  "format": ",.0f" }
+        ]
+      }
+    }
+  ],
+  "config": { "view": { "stroke": null }, "background": "#ffffff", "font": "DM Sans" }
+}

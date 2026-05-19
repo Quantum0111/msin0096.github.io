@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Fish Landings by State (2023)",
+    "subtitle": "Total metric tonnes landed · coast = all · hover for exact values",
+    "fontSize": 15, "subtitleFontSize": 12, "subtitleColor": "#5a5a54",
+    "anchor": "start", "font": "DM Sans", "subtitleFont": "DM Sans", "fontWeight": "bold", "offset": 12
+  },
+  "width": "container",
+  "height": 320,
+  "data": { "url": "data/fish_landings.csv", "format": { "type": "csv", "parse": { "landings": "number", "date": "date" } } },
+  "transform": [
+    { "filter": "datum.state != 'Malaysia' && datum.state != 'All States' && datum.coast == 'all' && year(datum.date) == 2023" },
+    { "aggregate": [{ "op": "sum", "field": "landings", "as": "annual_landing" }], "groupby": ["state"] }
+  ],
+  "mark": { "type": "bar", "cornerRadiusTopRight": 2, "cornerRadiusBottomRight": 2 },
+  "encoding": {
+    "y": {
+      "field": "state", "type": "nominal",
+      "sort": { "field": "annual_landing", "order": "descending" },
+      "axis": { "title": null, "labelFont": "DM Sans", "labelFontSize": 11, "grid": false }
+    },
+    "x": {
+      "field": "annual_landing", "type": "quantitative",
+      "axis": { "title": "Landings (tonnes)", "titleFont": "DM Sans", "labelFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 12, "grid": true, "gridColor": "#f0ede8", "format": ".2s" }
+    },
+    "color": {
+      "field": "annual_landing", "type": "quantitative",
+      "scale": { "scheme": "greens", "domain": [0, 500000] },
+      "legend": null
+    },
+    "tooltip": [
+      { "field": "state",          "title": "State",             "type": "nominal" },
+      { "field": "annual_landing", "title": "Landings (tonnes)", "type": "quantitative", "format": ",.0f" }
+    ]
+  },
+  "config": { "view": { "stroke": null }, "background": "#ffffff", "font": "DM Sans" }
+}

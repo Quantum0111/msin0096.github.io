@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "National Crop Production Trends (2017–2022)",
+    "subtitle": "Malaysia totals by crop type · flowers excluded · click a crop in the legend to highlight",
+    "fontSize": 15, "subtitleFontSize": 12, "subtitleColor": "#5a5a54",
+    "anchor": "start", "font": "DM Sans", "subtitleFont": "DM Sans", "fontWeight": "bold", "offset": 12
+  },
+  "width": "container",
+  "height": 360,
+  "data": { "url": "data/crops_state.csv", "format": { "type": "csv", "parse": { "production": "number", "planted_area": "number", "date": "date" } } },
+  "transform": [
+    { "filter": "datum.state == 'Malaysia' && datum.crop_type != 'flower'" }
+  ],
+  "params": [
+    {
+      "name": "highlight",
+      "select": { "type": "point", "fields": ["crop_type"] },
+      "bind": "legend"
+    }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "line", "strokeWidth": 2.5, "interpolate": "monotone" },
+      "encoding": {
+        "x": {
+          "field": "date", "type": "temporal",
+          "axis": { "title": null, "format": "%Y", "labelFont": "DM Sans", "labelFontSize": 11, "grid": false, "tickCount": 6 }
+        },
+        "y": {
+          "field": "production", "type": "quantitative",
+          "axis": { "title": "Production (tonnes)", "titleFont": "DM Sans", "labelFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 12, "grid": true, "gridColor": "#f0ede8", "format": ".2s" }
+        },
+        "color": {
+          "field": "crop_type", "type": "nominal",
+          "scale": {
+            "domain": ["paddy","fruits","vegetables","industrial_crops","coconut","cash_crops","spices","herbs"],
+            "range": ["#577590","#f8961e","#43aa8b","#2d6a4f","#74c69d","#d4850a","#f3722c","#90be6d"]
+          },
+          "legend": {
+            "title": "Crop Type", "titleFont": "DM Sans", "labelFont": "DM Sans", "titleFontSize": 12, "labelFontSize": 11, "orient": "right",
+            "labelExpr": "{'paddy':'Paddy','fruits':'Fruits','vegetables':'Vegetables','industrial_crops':'Industrial Crops','coconut':'Coconut','cash_crops':'Cash Crops','spices':'Spices','herbs':'Herbs'}[datum.label]"
+          }
+        },
+        "opacity": { "condition": { "param": "highlight", "value": 1 }, "value": 0.15 },
+        "strokeWidth": { "condition": { "param": "highlight", "value": 3 }, "value": 2 }
+      }
+    },
+    {
+      "mark": { "type": "point", "filled": true, "size": 60, "opacity": 1 },
+      "encoding": {
+        "x": { "field": "date", "type": "temporal" },
+        "y": { "field": "production", "type": "quantitative" },
+        "color": { "field": "crop_type", "type": "nominal" },
+        "opacity": { "condition": { "param": "highlight", "value": 1 }, "value": 0.15 },
+        "tooltip": [
+          { "field": "date",       "title": "Year",               "type": "temporal",     "format": "%Y" },
+          { "field": "crop_type",  "title": "Crop Type",          "type": "nominal" },
+          { "field": "production", "title": "Production (tonnes)","type": "quantitative",  "format": ",.0f" }
+        ]
+      }
+    }
+  ],
+  "config": { "view": { "stroke": null }, "background": "#ffffff", "font": "DM Sans" }
+}

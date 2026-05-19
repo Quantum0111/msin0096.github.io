@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Production Intensity: State × Crop (2022)",
+    "subtitle": "Colour encodes log₁₀ of production (tonnes) · flowers excluded · hover for exact values",
+    "fontSize": 15, "subtitleFontSize": 12, "subtitleColor": "#5a5a54",
+    "anchor": "start", "font": "DM Sans", "subtitleFont": "DM Sans", "fontWeight": "bold", "offset": 12
+  },
+  "width": "container",
+  "height": 340,
+  "data": { "url": "data/crops_state.csv", "format": { "type": "csv", "parse": { "production": "number", "planted_area": "number", "date": "date" } } },
+  "transform": [
+    { "filter": "year(datum.date) == 2022 && datum.state != 'Malaysia' && datum.crop_type != 'flower'" },
+    { "aggregate": [{ "op": "sum", "field": "production", "as": "total_prod" }], "groupby": ["state", "crop_type"] },
+    { "calculate": "log(datum.total_prod + 1) / log(10)", "as": "log_prod" }
+  ],
+  "mark": { "type": "rect", "stroke": "#faf8f4", "strokeWidth": 1 },
+  "encoding": {
+    "x": {
+      "field": "crop_type", "type": "nominal",
+      "sort": ["paddy","fruits","vegetables","industrial_crops","coconut","cash_crops","spices","herbs"],
+      "axis": {
+        "title": null, "labelAngle": -30, "labelFont": "DM Sans", "labelFontSize": 11,
+        "labelExpr": "{'cash_crops':'Cash Crops','coconut':'Coconut','fruits':'Fruits','herbs':'Herbs','industrial_crops':'Industrial Crops','paddy':'Paddy','spices':'Spices','vegetables':'Vegetables'}[datum.label]"
+      }
+    },
+    "y": {
+      "field": "state", "type": "nominal",
+      "sort": { "field": "total_prod", "op": "sum", "order": "descending" },
+      "axis": { "title": null, "labelFont": "DM Sans", "labelFontSize": 11 }
+    },
+    "color": {
+      "field": "log_prod", "type": "quantitative",
+      "scale": { "scheme": "greens", "domain": [0, 7] },
+      "legend": { "title": "log₁₀(tonnes)", "titleFont": "DM Sans", "labelFont": "DM Sans", "titleFontSize": 12, "labelFontSize": 11, "orient": "right", "gradientLength": 160 }
+    },
+    "tooltip": [
+      { "field": "state",      "title": "State",               "type": "nominal" },
+      { "field": "crop_type",  "title": "Crop Type",           "type": "nominal" },
+      { "field": "total_prod", "title": "Production (tonnes)", "type": "quantitative", "format": ",.0f" }
+    ]
+  },
+  "config": { "view": { "stroke": null }, "background": "#ffffff", "font": "DM Sans" }
+}

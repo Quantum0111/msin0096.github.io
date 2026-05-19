@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Agriculture's Share of Malaysia's GDP (1960–2023)",
+    "subtitle": "% of total GDP contributed by agriculture, forestry and fishing · World Bank data",
+    "fontSize": 14,
+    "subtitleFontSize": 11,
+    "subtitleColor": "#5a5a54",
+    "anchor": "start",
+    "font": "DM Sans",
+    "subtitleFont": "DM Sans",
+    "fontWeight": "bold",
+    "offset": 10
+  },
+  "width": "container",
+  "height": 280,
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/MY/indicator/NV.AGR.TOTL.ZS?format=json&per_page=100&mrv=64",
+    "format": {
+      "type": "json",
+      "property": "1"
+    }
+  },
+  "transform": [
+    { "filter": "datum.value != null" },
+    { "calculate": "toDate(datum.date + '-01-01')", "as": "year_date" }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "area", "opacity": 0.15, "color": "#2d6a4f", "line": false },
+      "encoding": {
+        "x": {
+          "field": "year_date",
+          "type": "temporal",
+          "axis": { "title": null, "format": "%Y", "labelFont": "DM Sans", "labelFontSize": 10, "grid": false, "tickCount": 12 }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "axis": {
+            "title": "% of GDP",
+            "titleFont": "DM Sans",
+            "labelFont": "DM Sans",
+            "labelFontSize": 10,
+            "titleFontSize": 11,
+            "grid": true,
+            "gridColor": "#f0ede8",
+            "format": ".1f"
+          }
+        }
+      }
+    },
+    {
+      "mark": { "type": "line", "strokeWidth": 2.5, "color": "#2d6a4f" },
+      "encoding": {
+        "x": { "field": "year_date", "type": "temporal" },
+        "y": { "field": "value", "type": "quantitative" },
+        "tooltip": [
+          { "field": "year_date", "title": "Year", "type": "temporal", "format": "%Y" },
+          { "field": "value", "title": "Agri. % of GDP", "type": "quantitative", "format": ".2f" }
+        ]
+      }
+    },
+    {
+      "data": { "values": [{ "year_date": "1970-01-01" }] },
+      "mark": { "type": "rule", "strokeDash": [4, 3], "color": "#aaa", "strokeWidth": 1 },
+      "encoding": {
+        "x": { "field": "year_date", "type": "temporal" }
+      }
+    },
+    {
+      "data": { "values": [{ "year_date": "1970-01-01", "label": "Industrialisation begins" }] },
+      "mark": { "type": "text", "align": "left", "dx": 6, "dy": -60, "fontSize": 9, "font": "DM Sans", "color": "#888" },
+      "encoding": {
+        "x": { "field": "year_date", "type": "temporal" },
+        "text": { "field": "label", "type": "nominal" }
+      }
+    }
+  ],
+  "config": { "view": { "stroke": null }, "background": "#ffffff", "font": "DM Sans" }
+}

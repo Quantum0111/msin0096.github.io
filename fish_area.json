@@ -1,0 +1,8369 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Monthly Marine Fish Landings (2018\u20132023)",
+    "subtitle": "National total in metric tonnes \u00b7 hover over the line to see monthly values",
+    "fontSize": 15,
+    "subtitleFontSize": 12,
+    "subtitleColor": "#5a5a54",
+    "anchor": "start",
+    "font": "DM Sans",
+    "subtitleFont": "DM Sans",
+    "fontWeight": "bold",
+    "offset": 12
+  },
+  "width": "container",
+  "height": 320,
+  "data": {
+    "values": [
+      {
+        "date": "2018-01-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 97405.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 97467.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 117813.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 127202.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 129453.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 128464.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 132056.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 132023.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 132223.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 131884.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 120240.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 106543.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 100462.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 104522.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 125360.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 131565.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 129754.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 125809.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 126728.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 125668.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 132718.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 133859.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 122082.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 96825.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 99867.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 121782.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 111214.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 104408.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 108295.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 124092.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 122060.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 126611.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 123311.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 123181.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 116856.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 101625.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 90179.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 92061.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 115532.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 121013.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 116078.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 114944.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 124343.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 125226.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 116715.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 117695.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 103996.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 90170.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 91102.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 98025.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 117950.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 127996.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 114772.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 115104.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 119858.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 120914.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 111056.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 108029.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 97884.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 85726.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 80422.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 85853.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 100296.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 106361.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 112338.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 115663.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 120006.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 111734.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 113007.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 119579.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 114726.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "all",
+        "state": "Malaysia",
+        "landings": 90300.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 16564.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 17149.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 21870.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 28292.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 28163.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 29412.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 26357.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 26735.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 31496.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 33155.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 25049.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 17873.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 14858.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 17316.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 25939.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 27381.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 24960.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23635.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 24643.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23004.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 28859.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 29108.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 20218.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 8201.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 10751.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 14874.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 24572.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 26362.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 24137.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23734.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22533.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 29841.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 28919.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 26364.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 15914.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 9281.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 7235.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 12747.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 15834.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 20347.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 18636.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 19600.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 21293.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22889.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 24240.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23007.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 13319.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 8872.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 10225.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 13300.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 17563.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22757.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22810.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 20895.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 21808.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22608.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23236.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23342.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 18540.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 10287.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 8944.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 12543.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 18079.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 24129.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22860.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 23945.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 25164.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 22934.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 26439.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 28408.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 18737.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "east",
+        "state": "All States",
+        "landings": 9929.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 58199.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 56607.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 61276.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64012.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 67884.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66930.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 71930.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 72863.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 69640.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 68071.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66729.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 63548.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 62018.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 61554.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 65858.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66550.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 68042.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 68967.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 69511.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 69358.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 72608.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 74902.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 72550.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 63844.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64392.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 79240.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 57812.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 50356.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 53548.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 67128.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66800.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64605.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64441.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 70037.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 73049.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 65959.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 61320.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 56442.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 59977.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 61719.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 60884.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 61231.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66608.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64164.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64283.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66390.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 65878.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 58120.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 58335.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 60528.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 63762.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66129.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 55521.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 64459.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 67507.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 66701.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 59742.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 57370.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 54266.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 54303.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 52007.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 53916.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 53228.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 52783.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 57875.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 61066.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 62614.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 60585.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 58663.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 62969.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 69296.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "All States",
+        "landings": 57282.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 22642.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 23711.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 34667.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 34898.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 33406.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 32122.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 33769.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 32425.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 31087.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 30658.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28462.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 25122.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 23586.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 25652.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 33563.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 37634.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 36752.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 33207.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 32574.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 33306.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 31251.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 29849.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 29314.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 24780.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 24724.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 27668.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28830.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 27690.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 30610.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 33230.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 32727.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 32165.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 29951.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 26780.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 27893.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 26385.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 21624.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 22872.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 39721.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 38947.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 36558.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 34113.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 36442.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 38173.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28192.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28298.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 24799.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 23178.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 22542.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 24197.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 36625.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 39110.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 36441.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 29750.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 30543.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 31605.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28078.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 27317.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 25078.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 21136.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 19471.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 19394.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28989.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 29449.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 31603.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 30652.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 32228.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28215.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 27905.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 28202.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 26693.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "borneo",
+        "state": "All States",
+        "landings": 23089.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 6932.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10892.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4883.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 21134.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11908.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 47.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 162.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2241.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7624.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1977.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 5642.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1321.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9467.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 12163.0
+      },
+      {
+        "date": "2018-01-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1012.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 7314.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12336.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4174.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 18935.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11104.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 49.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 152.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2543.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6987.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2566.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 6311.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1285.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 10864.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 11840.0
+      },
+      {
+        "date": "2018-02-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1007.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 7538.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12646.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4605.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 22277.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11359.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 180.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2616.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7571.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4320.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7228.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2751.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 17903.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14744.0
+      },
+      {
+        "date": "2018-03-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2020.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 7459.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12915.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4587.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24677.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11517.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 60.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 164.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2633.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8421.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4642.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 12457.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2772.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 18166.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14627.0
+      },
+      {
+        "date": "2018-04-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2105.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8225.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12458.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4171.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28427.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11708.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 52.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 133.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2710.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 10158.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4160.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10243.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3602.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 16876.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14293.0
+      },
+      {
+        "date": "2018-05-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2237.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 7628.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12843.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4232.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27733.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11837.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 137.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2465.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 10940.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2821.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11274.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4377.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15261.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14760.0
+      },
+      {
+        "date": "2018-06-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2101.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8763.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13257.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4912.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 29234.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12909.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 53.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 159.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2643.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7936.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2869.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11784.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3768.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 17130.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14436.0
+      },
+      {
+        "date": "2018-07-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2203.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8329.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12956.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4839.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 31648.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12305.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 56.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 178.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2552.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8907.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3300.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11281.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3247.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 16751.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14141.0
+      },
+      {
+        "date": "2018-08-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1533.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 7751.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12755.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4677.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 29848.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11830.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 59.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 150.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2570.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 9482.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4564.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 13217.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4233.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15374.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14138.0
+      },
+      {
+        "date": "2018-09-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1575.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8275.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12894.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4854.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27859.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11388.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 63.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 168.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2570.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 10346.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 5650.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 12711.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4448.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15495.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 13794.0
+      },
+      {
+        "date": "2018-10-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1369.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8747.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11658.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4589.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27313.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11895.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 57.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 162.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2308.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6039.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3323.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11407.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4280.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 14352.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 12826.0
+      },
+      {
+        "date": "2018-11-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1284.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9029.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11662.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4324.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24767.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11505.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 60.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 161.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2040.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 4998.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1533.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7650.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3692.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12960.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 11287.0
+      },
+      {
+        "date": "2018-12-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 875.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8759.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12507.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4866.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 21040.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12306.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 53.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 133.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2354.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5489.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1598.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 6370.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1401.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 10440.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 12153.0
+      },
+      {
+        "date": "2019-01-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 993.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9360.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12886.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3755.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 21080.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11903.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 47.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 157.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2366.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5260.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2682.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7771.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1603.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12394.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 12269.0
+      },
+      {
+        "date": "2019-02-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 989.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8257.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13097.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3764.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24904.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13212.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 53.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 151.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2420.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 10039.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3967.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8401.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3532.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 18058.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 13893.0
+      },
+      {
+        "date": "2019-03-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1612.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9729.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13219.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3701.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24062.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13035.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 163.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2586.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 9824.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4547.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8788.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4222.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 17648.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17875.0
+      },
+      {
+        "date": "2019-04-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2111.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9401.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13188.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4125.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 26121.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12616.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 52.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 146.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2393.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8841.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2967.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9539.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3613.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15736.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18804.0
+      },
+      {
+        "date": "2019-05-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2212.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9556.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13048.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4141.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 26425.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13330.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 60.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 150.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2257.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8054.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3161.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8329.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4091.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15691.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15379.0
+      },
+      {
+        "date": "2019-06-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2137.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9696.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12577.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4509.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 26325.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13827.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 56.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 161.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2360.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8259.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3250.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9559.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3575.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15336.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15084.0
+      },
+      {
+        "date": "2019-07-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2154.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9923.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11946.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4637.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 26184.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14066.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 56.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 166.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2380.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7438.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3184.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9375.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3007.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 16796.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14598.0
+      },
+      {
+        "date": "2019-08-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1912.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9047.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11746.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4869.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 30426.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14002.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 56.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 154.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2308.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 9151.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4888.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11372.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3448.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 14054.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15331.0
+      },
+      {
+        "date": "2019-09-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1866.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 10372.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11725.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4754.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 32056.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13551.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 62.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 171.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2211.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 10431.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 5790.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8697.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4190.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12727.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15450.0
+      },
+      {
+        "date": "2019-10-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1672.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9894.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11640.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4060.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 32104.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12570.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 69.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 162.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2051.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5033.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3255.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7270.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4660.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12193.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15675.0
+      },
+      {
+        "date": "2019-11-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1446.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9525.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11672.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4507.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24225.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11998.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 53.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 158.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 1706.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2381.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1159.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 4268.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 393.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 10409.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 13203.0
+      },
+      {
+        "date": "2019-12-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1168.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 9489.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13152.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3622.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24016.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11774.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 51.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 131.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2157.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2362.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2024.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 5844.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 521.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8832.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14930.0
+      },
+      {
+        "date": "2020-01-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 962.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 8234.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 13523.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4809.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 36474.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13726.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 54.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 154.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2266.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 3748.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2615.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7870.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 641.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8856.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17804.0
+      },
+      {
+        "date": "2020-02-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1008.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 5740.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11780.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4134.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27180.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 7265.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 59.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 139.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 1515.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8566.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3226.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9083.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3697.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12992.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14656.0
+      },
+      {
+        "date": "2020-03-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1182.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 4703.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 7028.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4806.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 22258.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9809.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 57.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 132.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 1563.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7083.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3778.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10413.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 5088.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12337.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14071.0
+      },
+      {
+        "date": "2020-04-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1282.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 4189.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 6702.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4500.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24497.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11401.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 60.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 131.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2068.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8747.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2658.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8702.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4030.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 11623.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17415.0
+      },
+      {
+        "date": "2020-05-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1572.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 4969.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10472.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 5396.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28428.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15499.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 76.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 128.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2160.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5834.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2506.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9277.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 6117.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 11844.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19362.0
+      },
+      {
+        "date": "2020-06-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 2024.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 5713.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11510.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4980.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 26756.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15413.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 76.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 131.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2221.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6189.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3644.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8807.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3893.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 11336.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19398.0
+      },
+      {
+        "date": "2020-07-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1993.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 6393.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11518.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 5004.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 23654.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15583.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 62.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 135.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2256.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8087.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3507.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11140.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 7107.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 11104.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19289.0
+      },
+      {
+        "date": "2020-08-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1772.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 5759.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12348.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4547.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 25578.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13810.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 58.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 144.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2197.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 8815.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 5100.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9589.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 5415.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9816.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18651.0
+      },
+      {
+        "date": "2020-09-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1484.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 5433.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11772.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 5194.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 29670.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15449.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 0.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 174.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2345.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7268.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4569.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9638.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4889.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9149.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 16011.0
+      },
+      {
+        "date": "2020-10-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1620.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 5001.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11970.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 5279.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 32647.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15765.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 0.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 204.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2183.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 4001.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2246.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 6640.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3027.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9210.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17160.0
+      },
+      {
+        "date": "2020-11-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1523.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3735.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12645.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4578.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27138.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15537.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 44.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 194.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2088.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2880.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1354.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 4314.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 733.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 7355.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17955.0
+      },
+      {
+        "date": "2020-12-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1075.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 1973.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10799.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2870.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27089.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 16045.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 17.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 152.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2375.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2074.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1394.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 3477.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 290.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 6127.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14669.0
+      },
+      {
+        "date": "2021-01-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 828.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2549.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11059.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2980.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 23802.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13616.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 33.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 126.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2277.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2557.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1786.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7896.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 508.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 6840.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15068.0
+      },
+      {
+        "date": "2021-02-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 964.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2479.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11118.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3225.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28895.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 11804.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 43.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 163.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2250.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 4443.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2444.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8203.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 744.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 17594.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 21095.0
+      },
+      {
+        "date": "2021-03-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1032.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2327.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11020.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3219.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28822.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13881.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 45.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 188.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2217.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6554.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2530.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9503.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1760.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 17428.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19740.0
+      },
+      {
+        "date": "2021-04-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1779.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2089.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 9158.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3312.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 30448.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13187.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 46.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 195.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2449.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6173.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2521.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8137.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1805.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15288.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19473.0
+      },
+      {
+        "date": "2021-05-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1797.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2560.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 9507.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3598.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28896.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14200.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 43.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 193.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2234.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7170.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2745.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7903.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1782.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 12407.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19754.0
+      },
+      {
+        "date": "2021-06-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1952.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2746.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 9754.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3479.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 33245.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14782.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 170.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2377.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6278.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3006.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8857.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3152.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15750.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18753.0
+      },
+      {
+        "date": "2021-07-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1939.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3883.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 9336.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3049.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 31784.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13684.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 51.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 192.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2185.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6592.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3604.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8989.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3704.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 15973.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 20416.0
+      },
+      {
+        "date": "2021-08-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1784.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3212.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 9343.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2871.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 33427.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12987.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 64.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 189.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2190.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6432.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3430.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10008.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4370.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8064.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18481.0
+      },
+      {
+        "date": "2021-09-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1647.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3497.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10518.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2391.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 33292.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14085.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 67.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 197.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2343.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5873.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3127.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9741.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4266.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9601.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17146.0
+      },
+      {
+        "date": "2021-10-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1551.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3369.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10507.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2100.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 32054.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15432.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 66.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 174.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2176.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2452.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2419.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7379.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1069.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 7225.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 16093.0
+      },
+      {
+        "date": "2021-11-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1481.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2373.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10709.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2275.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 26644.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 13876.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 37.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 150.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2056.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 1676.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1635.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 4722.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 839.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 6582.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15626.0
+      },
+      {
+        "date": "2021-12-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 970.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2822.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11757.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2711.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 24494.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14197.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 56.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 109.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2189.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 1768.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2088.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 5510.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 859.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 4080.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17700.0
+      },
+      {
+        "date": "2022-01-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 762.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2758.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12320.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3268.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 25326.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14568.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 57.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 111.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2120.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2006.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2302.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 7905.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1087.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 4664.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18489.0
+      },
+      {
+        "date": "2022-02-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1044.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2890.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12123.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4815.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 25569.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15909.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 63.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 123.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2270.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 4055.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2613.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8928.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1967.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 14684.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 20837.0
+      },
+      {
+        "date": "2022-03-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1104.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3568.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11800.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4232.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27252.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 16727.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 69.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 133.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2348.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5328.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3084.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10309.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 4036.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 16270.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 21045.0
+      },
+      {
+        "date": "2022-04-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1795.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3353.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10646.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2769.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 20343.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15879.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 51.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 143.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2337.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6119.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2888.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10672.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3131.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 13792.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 20961.0
+      },
+      {
+        "date": "2022-05-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1688.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 4830.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11317.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4166.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 25874.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 15781.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 45.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 154.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2292.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5954.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2419.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8902.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3620.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8111.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19899.0
+      },
+      {
+        "date": "2022-06-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1740.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 5284.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11554.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4797.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 29249.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14049.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 62.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 176.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2336.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6419.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2888.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9494.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3007.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8142.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 20534.0
+      },
+      {
+        "date": "2022-07-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1867.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3792.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11697.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3576.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 30994.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 14064.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 202.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2321.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6540.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3599.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9935.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2534.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8225.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 21444.0
+      },
+      {
+        "date": "2022-08-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1936.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3072.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11277.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4754.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 25455.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12668.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 40.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 211.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2265.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6324.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3610.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10846.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2456.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 7766.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18368.0
+      },
+      {
+        "date": "2022-09-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1944.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2673.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11415.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4700.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 23812.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12144.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 51.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 212.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2363.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5599.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3686.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10215.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3842.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 7180.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18458.0
+      },
+      {
+        "date": "2022-10-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1679.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 1598.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12387.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3465.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 21961.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12425.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 33.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 210.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2187.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 3182.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2949.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9053.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3356.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 6211.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17306.0
+      },
+      {
+        "date": "2022-11-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1561.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 1365.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12573.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 4352.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 21047.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 12646.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 17.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 217.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2086.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 1790.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1566.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 6213.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 718.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 4714.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 15131.0
+      },
+      {
+        "date": "2022-12-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1291.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 1542.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12541.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2756.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 22210.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 10491.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 210.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2202.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 1718.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2219.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 4619.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 388.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 3771.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14724.0
+      },
+      {
+        "date": "2023-01-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 976.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2138.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12130.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3742.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 23107.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 10372.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 55.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 174.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2198.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2979.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 2998.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 6193.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 373.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 4247.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 14145.0
+      },
+      {
+        "date": "2023-02-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1002.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2829.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12365.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3352.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 21898.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 10310.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 39.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 156.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2279.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 4839.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3555.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 8770.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 915.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9893.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 17477.0
+      },
+      {
+        "date": "2023-03-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1619.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2704.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11030.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3237.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 23570.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9811.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 42.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 145.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2244.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 7665.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3944.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 10425.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2095.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 9712.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18071.0
+      },
+      {
+        "date": "2023-04-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1666.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3078.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11898.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2759.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 27980.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9151.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 43.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 130.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2836.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6193.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4353.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9853.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2461.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 10394.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19326.0
+      },
+      {
+        "date": "2023-05-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1883.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 4533.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11776.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3364.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28920.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9134.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 48.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 148.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 3143.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6347.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4194.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11298.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2106.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 10047.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18780.0
+      },
+      {
+        "date": "2023-06-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1825.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3537.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12768.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3998.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 29908.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9486.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 37.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 156.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2724.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6251.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4256.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 12617.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2040.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 10160.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 20170.0
+      },
+      {
+        "date": "2023-07-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1898.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3178.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11148.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3198.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 30378.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9977.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 48.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 172.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2486.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5579.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4134.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 11160.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2061.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 8075.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18292.0
+      },
+      {
+        "date": "2023-08-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1848.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2832.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 11867.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2700.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 28603.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 9934.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 37.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 194.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2496.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 6481.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 4836.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 12971.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 2151.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 7711.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18377.0
+      },
+      {
+        "date": "2023-09-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1817.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 3451.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10944.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2813.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 32462.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 10573.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 39.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 182.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2505.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 5481.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 6473.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 13217.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 3237.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 7483.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 19052.0
+      },
+      {
+        "date": "2023-10-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1667.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 2831.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 12730.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 3397.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 37326.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 10432.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 32.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 174.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2374.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 4035.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 3148.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 9793.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 1761.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 6915.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 18373.0
+      },
+      {
+        "date": "2023-11-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1405.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Perlis",
+        "landings": 1410.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Kedah",
+        "landings": 10115.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Pulau Pinang",
+        "landings": 2911.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Perak",
+        "landings": 29581.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Selangor",
+        "landings": 10922.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Negeri Sembilan",
+        "landings": 28.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Melaka",
+        "landings": 152.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "west",
+        "state": "Johor",
+        "landings": 2163.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "east",
+        "state": "Kelantan",
+        "landings": 2464.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "east",
+        "state": "Terengganu",
+        "landings": 1591.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "east",
+        "state": "Pahang",
+        "landings": 5288.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "east",
+        "state": "Johor",
+        "landings": 586.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "borneo",
+        "state": "Sarawak",
+        "landings": 5933.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "borneo",
+        "state": "Sabah",
+        "landings": 16000.0
+      },
+      {
+        "date": "2023-12-01",
+        "coast": "borneo",
+        "state": "W.P. Labuan",
+        "landings": 1156.0
+      }
+    ]
+  },
+  "transform": [
+    {
+      "calculate": "toDate(datum.date)",
+      "as": "date"
+    },
+    {
+      "filter": "datum.state == 'Malaysia' && datum.coast == 'all'"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "area",
+        "opacity": 0.18,
+        "color": "#2d6a4f",
+        "line": false
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {
+            "title": null,
+            "labelFont": "DM Sans",
+            "labelFontSize": 11,
+            "grid": false,
+            "format": "%b '%y",
+            "tickCount": 12
+          }
+        },
+        "y": {
+          "field": "landings",
+          "type": "quantitative",
+          "axis": {
+            "title": "Landings (tonnes)",
+            "titleFont": "DM Sans",
+            "labelFont": "DM Sans",
+            "labelFontSize": 11,
+            "titleFontSize": 12,
+            "grid": true,
+            "gridColor": "#f0ede8",
+            "format": ".2s"
+          }
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "line",
+        "strokeWidth": 2.2,
+        "color": "#2d6a4f",
+        "interpolate": "monotone"
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "landings",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 30,
+        "color": "#2d6a4f",
+        "opacity": 0
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "landings",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "title": "Month",
+            "type": "temporal",
+            "format": "%B %Y"
+          },
+          {
+            "field": "landings",
+            "title": "Landings (tonnes)",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      },
+      "params": [
+        {
+          "name": "hover",
+          "select": {
+            "type": "point",
+            "on": "mouseover",
+            "nearest": true
+          }
+        }
+      ]
+    },
+    {
+      "transform": [
+        {
+          "filter": {
+            "param": "hover",
+            "empty": false
+          }
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "color": "#999",
+        "strokeWidth": 1,
+        "strokeDash": [
+          3,
+          3
+        ]
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "background": "#ffffff",
+    "font": "DM Sans"
+  }
+}

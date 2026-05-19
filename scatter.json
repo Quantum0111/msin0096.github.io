@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Land Planted vs. Output by State (2022)",
+    "subtitle": "Flowers excluded · bubble size = yield efficiency (tonnes/ha) · hover for details",
+    "fontSize": 15, "subtitleFontSize": 12, "subtitleColor": "#5a5a54",
+    "anchor": "start", "font": "DM Sans", "subtitleFont": "DM Sans", "fontWeight": "bold", "offset": 12
+  },
+  "width": "container",
+  "height": 380,
+  "data": { "url": "data/crops_state.csv", "format": { "type": "csv", "parse": { "production": "number", "planted_area": "number", "date": "date" } } },
+  "transform": [
+    { "filter": "year(datum.date) == 2022 && datum.state != 'Malaysia' && datum.crop_type != 'flower'" },
+    {
+      "aggregate": [
+        { "op": "sum", "field": "production",  "as": "total_production" },
+        { "op": "sum", "field": "planted_area", "as": "total_area" }
+      ],
+      "groupby": ["state"]
+    },
+    { "calculate": "datum.total_area > 0 ? datum.total_production / datum.total_area : null", "as": "yield_per_ha" }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "point", "filled": true, "opacity": 0.85, "stroke": "#ffffff", "strokeWidth": 1.5 },
+      "encoding": {
+        "x": {
+          "field": "total_area", "type": "quantitative",
+          "scale": { "zero": false, "padding": 0.15 },
+          "axis": { "title": "Total Planted Area (ha)", "titleFont": "DM Sans", "labelFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 12, "grid": true, "gridColor": "#f0ede8", "format": ".2s" }
+        },
+        "y": {
+          "field": "total_production", "type": "quantitative",
+          "scale": { "zero": false, "padding": 0.15 },
+          "axis": { "title": "Total Production (tonnes)", "titleFont": "DM Sans", "labelFont": "DM Sans", "labelFontSize": 11, "titleFontSize": 12, "grid": true, "gridColor": "#f0ede8", "format": ".2s" }
+        },
+        "size": {
+          "field": "yield_per_ha", "type": "quantitative",
+          "scale": { "range": [100, 1200] },
+          "legend": { "title": "Yield (t/ha)", "titleFont": "DM Sans", "labelFont": "DM Sans", "titleFontSize": 11, "labelFontSize": 10 }
+        },
+        "color": {
+          "field": "yield_per_ha", "type": "quantitative",
+          "scale": { "scheme": "greens", "domain": [2, 14] },
+          "legend": null
+        },
+        "tooltip": [
+          { "field": "state",            "title": "State",               "type": "nominal" },
+          { "field": "total_production", "title": "Production (tonnes)", "type": "quantitative", "format": ",.0f" },
+          { "field": "total_area",       "title": "Planted Area (ha)",   "type": "quantitative", "format": ",.0f" },
+          { "field": "yield_per_ha",     "title": "Yield (t/ha)",        "type": "quantitative", "format": ".1f" }
+        ]
+      }
+    },
+    {
+      "mark": { "type": "text", "fontSize": 10, "font": "DM Sans", "dy": -14, "color": "#333", "fontWeight": 500 },
+      "encoding": {
+        "x":    { "field": "total_area",       "type": "quantitative" },
+        "y":    { "field": "total_production", "type": "quantitative" },
+        "text": { "field": "state",            "type": "nominal" }
+      }
+    }
+  ],
+  "config": { "view": { "stroke": null }, "background": "#ffffff", "font": "DM Sans" }
+}
