@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvesting Malaysia — Agriculture Across the States</title>
+
+  <!-- Pure.css grid -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css" />
+
+  <!-- Vega-Lite v5 -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.30.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.26.0"></script>
+
+  <!-- Google Fonts: DM Sans (body) + Playfair Display (display headings) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HERO / TITLE SECTION
+  ═══════════════════════════════════════════ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-eyebrow">Malaysia · Agriculture · 2017 – 2023</div>
+      <h1 class="site-title">
+        Harvesting<br/>
+        <span class="title-accent">Malaysia</span>
+      </h1>
+      <p class="site-subtitle">
+        From paddy fields in Kedah to palm oil in Sabah — how agriculture shapes
+        every corner of the country, and where food and nature intersect.
+      </p>
+      <div class="header-meta">
+        Data: Department of Statistics Malaysia (DOSM) · Department of Fisheries · World Bank &nbsp;|&nbsp; 2026
+      </div>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 1 — THE BIG PICTURE (MAP + INTRO)
+    ═══════════════════════════════════════════ -->
+    <section class="viz-section">
+      <div class="section-label">01 — Overview</div>
+      <div class="pure-g section-row">
+
+        <div class="pure-u-1 pure-u-md-2-5">
+          <div class="text-block">
+            <h2 class="section-title">Where Does Malaysia Grow Its Food?</h2>
+            <p>
+              Agriculture is woven into Malaysia's identity. From the rice bowl states of
+              Kedah and Perlis in the northwest to the vast plantations of Sabah and
+              Sarawak in East Malaysia, each state contributes differently to the
+              national harvest.
+            </p>
+            <p>
+              This map shows total crop production (in metric tonnes) by state in
+              2022, the most recent complete year. Darker shades signal higher output.
+              East Malaysia dominates due to the sheer scale of its industrial crops,
+              while Peninsular states lead in food crops like paddy and vegetables.
+            </p>
+            <div class="stat-callout">
+              <span class="stat-number">15</span>
+              <span class="stat-label">states producing agricultural output</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-3-5">
+          <div class="chart-container">
+            <div id="vis_choropleth"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 2 — CROP BREAKDOWN
+    ═══════════════════════════════════════════ -->
+    <section class="viz-section">
+      <div class="section-label">02 — Crop Composition</div>
+      <div class="pure-g section-row">
+
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="chart-container">
+            <div id="vis_stacked_bar"></div>
+          </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="text-block text-block--right">
+            <h2 class="section-title">Not One Crop, But Many</h2>
+            <p>
+              Malaysia grows an extraordinary variety of crops from industrial
+              giants like palm oil and rubber to everyday staples like paddy, fruits,
+              and vegetables. But the mix differs dramatically by state.
+            </p>
+            <p>
+              Sabah and Sarawak are almost entirely industrial crop territory.
+              Meanwhile, states like Kedah are almost entirely paddy. Selangor and
+              Johor show the most diverse profiles, growing everything from vegetables
+              to fruits and cash crops.
+            </p>
+            <p>
+              This stacked bar chart shows the crop type composition for each state,
+              letting you see which agricultural identity each state has claimed.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <div class="section-divider"></div>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 4 — HEATMAP + BUBBLE
+    ═══════════════════════════════════════════ -->
+    <section class="viz-section">
+      <div class="section-label">04 — Crop × State Patterns</div>
+      <h2 class="section-title section-title--center">Which State Grows What?</h2>
+      <p class="section-intro">
+        The heatmap below reveals the intensity of each crop type across every state.
+        A quick scan shows which state-crop combinations dominate the national picture.
+      </p>
+
+      <div class="pure-g section-row">
+        <div class="pure-u-1">
+          <div class="chart-container chart-container--wide">
+            <div id="vis_heatmap"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pure-g section-row" style="margin-top: 2.5rem;">
+
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="text-block">
+            <h3 class="subsection-title">Efficiency: Area Planted vs. Output</h3>
+            <p>
+              Not all planted land produces equal returns. The scatter plot on the right
+              maps each state's planted area against its total production states
+              sitting above the trend line are punching above their weight in yield
+              efficiency.
+            </p>
+            <p>
+              Kedah and Sabah represent opposite ends of the spectrum: Kedah produces
+              consistently high paddy yields on modest land, while Sabah's massive
+              planted area reflects extensive palm oil cultivation.
+            </p>
+          </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2">
+          <div class="chart-container">
+            <div id="vis_scatter"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 5 — CROP SHARE (NORMALISED BAR)
+    ═══════════════════════════════════════════ -->
+    <section class="viz-section">
+      <div class="section-label">05 — Proportional Share</div>
+
+      <div class="pure-g section-row">
+
+        <div class="pure-u-1 pure-u-md-2-5">
+          <div class="text-block">
+            <h2 class="section-title">How Diverse Is Each State's Agriculture?</h2>
+            <p>
+              When we normalise production to 100%, the story shifts. States that look
+              small on an absolute scale like Perlis or Putrajaya show surprisingly
+              concentrated specialisations.
+            </p>
+            <p>
+              This view strips away the size effect and asks: what proportion of each
+              state's harvest comes from which crop type? A state dominated by a single
+              bar is highly specialised; a balanced mix of colours signals
+              diversification.
+            </p>
+          </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-3-5">
+          <div class="chart-container">
+            <div id="vis_norm_bar"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <div class="section-divider"></div>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 7 — TIMBER
+    ═══════════════════════════════════════════ -->
+    <section class="viz-section">
+      <div class="section-label">07 — Forests as Farmland</div>
+
+      <div class="pure-g section-row">
+
+        <div class="pure-u-1 pure-u-md-3-5">
+          <div class="chart-container">
+            <div id="vis_timber"></div>
+          </div>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-2-5">
+          <div class="text-block text-block--right">
+            <h2 class="section-title">Timber: East Malaysia's Industrial Forest</h2>
+            <p>
+              Sabah and Sarawak together account for the overwhelming majority of
+              Malaysia's timber production. The multi-line chart on the left tracks log
+              production from 2000 to 2021, showing a long-term decline as forest
+              protection policies took hold a notable environmental success story.
+            </p>
+            <p>
+              Meanwhile, Peninsular Malaysia's timber sector has remained comparatively
+              small and stable, reflecting both stronger enforcement and less remaining
+              primary forest.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 8 — MACRO CONTEXT (WORLD BANK GDP)
+    ═══════════════════════════════════════════ -->
+    <section class="viz-section">
+      <div class="section-label">08 — The Bigger Picture</div>
+      <h2 class="section-title section-title--center">Agriculture's Shrinking Share of Malaysia's Economy</h2>
+      <p class="section-intro">
+        As Malaysia industrialised and urbanised, agriculture's contribution to GDP
+        declined from over 30% in the 1970s to under 9% today. Yet the sector remains
+        indispensable employing millions and feeding the nation.
+      </p>
+
+      <div class="pure-g section-row">
+        <div class="pure-u-1">
+          <div class="chart-container chart-container--wide">
+            <div id="vis_gdp"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>
+        <strong>Harvesting Malaysia</strong> — Data Visualisation 2 · FIT2179 · Monash University Malaysia · 2026
+      </p>
+      <p>
+        Data sources: Department of Statistics Malaysia (OpenDOSM) · Department of Fisheries Malaysia · World Bank Open Data.
+      </p>
+      <p>
+        Visualisations built with <a href="https://vega.github.io/vega-lite/" target="_blank">Vega-Lite v5</a> and
+        <a href="https://purecss.io/" target="_blank">Pure.css</a>.
+      </p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════
+       VEGA-EMBED CALLS
+  ═══════════════════════════════════════════ -->
+  <script>
+    // Data URLs in js/*.json are resolved from site root (where index.html lives)
+    const siteRoot = new URL("./", window.location.href).href;
+    const embedOpts = {
+      actions: false,
+      renderer: "svg",
+      loader: vega.loader({ baseURL: siteRoot })
+    };
+
+    async function embedChart(selector, specPath) {
+      const el = document.querySelector(selector);
+      if (!el) throw new Error("Missing element: " + selector);
+
+      const host = el.closest(".chart-container") || el.parentElement;
+      const width = Math.max(320, Math.floor(host.getBoundingClientRect().width - 8));
+
+      const res = await fetch(specPath);
+      if (!res.ok) throw new Error(specPath + " failed to load (" + res.status + ")");
+      const spec = await res.json();
+
+      // "container" width is 0 unless the host already has layout width
+      if (spec.width === "container") spec.width = width;
+
+      return vegaEmbed(el, spec, embedOpts);
+    }
+
+    const charts = [
+      ["#vis_choropleth",  "js/choropleth_map.json"],
+      ["#vis_stacked_bar", "js/stacked_bar.json"],
+      ["#vis_heatmap",     "js/heatmap.json"],
+      ["#vis_scatter",     "js/scatter.json"],
+      ["#vis_norm_bar",    "js/normalised_bar.json"],
+      ["#vis_timber",      "js/timber_lines.json"],
+      ["#vis_gdp",         "js/gdp_line.json"]
+    ];
+
+    function renderCharts() {
+      return Promise.all(charts.map(([sel, path]) => embedChart(sel, path)));
+    }
+
+    window.addEventListener("load", function () {
+      requestAnimationFrame(function () {
+        renderCharts().catch(function (err) {
+          console.error("Chart embed error:", err);
+        });
+      });
+    });
+  </script>
+
+</body>
+</html>
